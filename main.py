@@ -7,7 +7,7 @@ with open("ratio.txt", "r") as f:
 #on génère une chaine de caractère aléatoire contenant 15 des mots de ratio.txt
 def ratioUltime():
     ratioUltime = ""
-    for i in range(15):
+    for i in range(20):
         ratioUltime += random.choice(ratio) + "+"
     return ratioUltime
 
