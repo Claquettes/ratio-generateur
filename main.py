@@ -11,7 +11,7 @@ def ratioUltime():
         ratioUltime += random.choice(ratio) + "+"
     return ratioUltime
 
-print('ratio +' +  ratioUltime())
+print('Déguste moi ce délicieux ratio ' +  ratioUltime() + 'polymanu is better than you')
 
 
 
