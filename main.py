@@ -3,7 +3,7 @@ from tkinter import *
 import string  
 import random
 # on importe le fichier ratio.txt, qui est dans le même dossier que main.py, sachant qu'on sépare le contenu du fichier à chaque caractèrte "+"
-with open("ratio.txt", "r") as f:
+with open("leratio.txt", "r") as f:
     ratio = f.read().split("+")
 
 #on génère une chaine de caractère aléatoire contenant 15 des mots de ratio.txt
@@ -20,7 +20,7 @@ window = Tk()
 window.title("Ratio Ultime")
 window.geometry("200x500")
 
-button = Button(window, text="Générer un ratio", command=ratioUltime).pack()
+#on ajoute un bouton pour quitter l'application
 button2 = Button(window, text="Quitter", command=window.quit).pack()
 
 label = Label(window, text=ratioUltime(), wraplength=100).pack()
