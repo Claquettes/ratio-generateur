@@ -11,11 +11,7 @@ def ratioUltime():
     ratioUltime = ""
     for i in range(20):
         ratioUltime += random.choice(ratio) + "+"
-    return ratioUltime
 
-##print('Déguste moi ce délicieux ratio ' +  ratioUltime() + 'polymanu is better than you')
-
-# on crée la fenêtre
 window = Tk()
 window.title("Ratio Ultime")
 window.geometry("200x500")
